@@ -1,4 +1,5 @@
 https://nmekinci.github.io/react-to-do
+This simple application created with react. It doesnt effect refreshing page because I sotoraged the data as a JSON format in localstorage. Also it includes UUID format for automatisation for id. It means when you create new topic, it appaers in the list with its own uniq id. I storaged as a JSON format because all topics became an object in JSON and all object has three keys; id, text and complated. With complated key we checking each item for complated or no. If its complated it becames throught line and red. vice versa its appearing normal. Also I used usestate and useeffect. 
 
 
 
